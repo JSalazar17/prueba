@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background-color:darkcyan;
+    margin-left: 5px;
+}
+#tit1{
+    text-align: center;
+    margin-top: 0%;
+    background-color: brown;
+    font-family:'Times New Roman', Times, serif;
+}
+#header{
+    margin: auto;
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Registro{
+    width:200px
+}
+.navegacion{
+    width: 1000px;
+    margin: 30px auto;
+    background: #fff;
+}
+.navegacion ul{
+    list-style: none;
+}
+.menu > li{
+    display: inline-block;
+}
+.menu > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: #353535;
+    font-family: 'Open sans';
+    text-decoration: none;
+}
+.menu li a:hover{
+    color: #ce7d35;
+    transition: all .3s;
+}
+.submenu{
+    position: absolute;
+    background: #333333;
+    width: 12%;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+.submenu li a{
+    display: block;
+    padding: 15px;
+    color: #fff;
+    font-family: 'Open sans';
+    text-decoration: none;
+}
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}
+.formulario{
+    margin-left: 700px;
+    margin-top: -200px; 
+    /*float:right;*/
+}
+
